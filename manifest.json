@@ -1,0 +1,16 @@
+{
+  "name": "مستودع جميل سرحان",
+  "short_name": "مستودع جميل سرحان",
+  "start_url": "/dop/",
+  "scope": "/dop/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://i.ibb.co/tw8ZrDcb/Screenshot-Chrome.png",
+      "sizes": "192x192 512x512",
+      "type": "image/png"
+    }
+  ]
+}
