@@ -1,8 +1,8 @@
 {
   "name": "مستودع جميل سرحان",
   "short_name": "مستودع جميل سرحان",
-  "start_url": "/dop/",
-  "scope": "/dop/",
+  "start_url": "/wh-sch/",
+  "scope": "/wh-sch/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
