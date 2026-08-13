@@ -265,8 +265,6 @@
   type="button"
   aria-label="الدخول إلى ملء الشاشة"
   aria-pressed="false"
-  data-tooltip="ملء الشاشة"
-  title="ملء الشاشة"
 >
   <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
     <path d="M8 3H5a2 2 0 0 0-2 2v3"></path>
@@ -315,10 +313,9 @@
         'aria-label',
         isFullscreen ? 'الخروج من ملء الشاشة' : 'الدخول إلى ملء الشاشة'
       );
-      fullscreenButton.dataset.tooltip = isFullscreen
-        ? 'الخروج من ملء الشاشة'
-        : 'ملء الشاشة';
-      fullscreenButton.title = fullscreenButton.dataset.tooltip;
+      // يبقى الزر أيقونة فقط دون أي نص أو تلميح مرئي.
+      delete fullscreenButton.dataset.tooltip;
+      fullscreenButton.removeAttribute('title');
     };
 
     const enterFullscreen = () => {
